@@ -19,17 +19,18 @@ namespace ProInves01
 
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
-
+            //Cerrar
+            Application.Exit();
         }
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-
+            //Borrar
         }
 
         private void BtnCalcular_Click(object sender, EventArgs e)
         {
-
+            //Calcular
         }
     }
 }
