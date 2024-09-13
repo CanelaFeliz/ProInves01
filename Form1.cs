@@ -12,6 +12,11 @@ namespace ProInves01
 {
     public partial class Form1 : Form
     {
+        // Proyecto desarrollado en C# basado en la idea original de Roberto Rafael Ramos Alfaro.
+        // Los demás integrantes del equipo colaboramos en la implementación y ajustes adicionales:
+        // - María Gabriela Mejía Bautista
+        // - Esmeralda Odeth Pérez Castellanos
+        // - Cristian Mauricio Vásquez Hernández
         public Form1()
         {
             InitializeComponent();
@@ -34,7 +39,8 @@ namespace ProInves01
         {
             //Calcular
             string Nombre = txtNombre.Text;
-            double Sueldo, Renta = 0.00;
+            double Sueldo;
+            double Renta = 0.00;
             int seleccion = cbxPeriodo.SelectedIndex;
 
             switch (seleccion)
