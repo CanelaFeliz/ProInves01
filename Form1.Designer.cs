@@ -48,6 +48,7 @@ namespace ProInves01
             this.BtnCerrar.TabIndex = 26;
             this.BtnCerrar.Text = "Cerrar";
             this.BtnCerrar.UseVisualStyleBackColor = true;
+            this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
             // 
             // btnBorrar
             // 
@@ -57,6 +58,7 @@ namespace ProInves01
             this.btnBorrar.TabIndex = 25;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // BtnCalcular
             // 
@@ -66,6 +68,7 @@ namespace ProInves01
             this.BtnCalcular.TabIndex = 24;
             this.BtnCalcular.Text = "Calcular";
             this.BtnCalcular.UseVisualStyleBackColor = true;
+            this.BtnCalcular.Click += new System.EventHandler(this.BtnCalcular_Click);
             // 
             // txtSueldo
             // 

@@ -16,5 +16,20 @@ namespace ProInves01
         {
             InitializeComponent();
         }
+
+        private void BtnCerrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnCalcular_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
